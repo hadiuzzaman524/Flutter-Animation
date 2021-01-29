@@ -39,18 +39,17 @@ class _DetailsScreenState extends State<DetailsScreen> {
               ),
               Expanded(
                 child: Container(
-                    child: Center(
-                  child: InkWell(
-                    onTap: (){
-
-                    },
-                    child: Icon(
-                      Icons.favorite,
-                      size: 69,
-                      color: Colors.grey,
+                  child: Center(
+                    child: InkWell(
+                      onTap: () {},
+                      child: Icon(
+                        Icons.favorite,
+                        size: 69,
+                        color: Colors.grey,
+                      ),
                     ),
                   ),
-                )),
+                ),
               ),
             ],
           ),
